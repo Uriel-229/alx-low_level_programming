@@ -5,7 +5,7 @@
  * main -prints the largest prime factor of the number 612852475143
  * Return: Always 0
  */
-int main(void);
+int main(void)
 {
 	long x, maxf;
 	long number = 612852475143;
