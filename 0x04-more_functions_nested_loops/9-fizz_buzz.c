@@ -2,13 +2,13 @@
 
 /**
  * main - print fizzbuzz
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
 	int n;
 
-	print("1");
+	printf("1");
 	for (n = 2; n <= 100; n++)
 	{
 		printf(" ");
