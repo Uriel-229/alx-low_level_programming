@@ -3,7 +3,7 @@
  * reserve_array - reserves an array of integer
  * @a: arrays
  * @n: number of element of the array
- * Return: rev
+ * Return: 0
  */
 void reserve_array(int *a, int n)
 {
