@@ -4,7 +4,7 @@
  * @dest: copy to
  * @src: copy from
  * @n: n
- * Return: 0
+ * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
