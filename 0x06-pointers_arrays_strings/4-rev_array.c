@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * reserve_array - reserves an array of integer
- * @a: arrays
- * @n: number of element of the array
- * Return: 0
+ * reserve_array - a function that reverses the content of an array of int
+ * @a: content
+ * @n: element of content
+ * Return: Always (Success)
  */
 void reserve_array(int *a, int n)
 {
-	int i;
-	int j;
+	int i; temp;
 
 	for (i = 0; i < n; i++)
 	{
 		n--;
-		j = a[i];
+		temp = a[i];
 		a[i] = a[n];
-		a[n] = j;
+		a[n] = temp;
 	}
 }
